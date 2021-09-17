@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/flexmoney/static/css/main.d9d5658d.chunk.css",
+    "main.js": "/flexmoney/static/js/main.ab90a115.chunk.js",
+    "main.js.map": "/flexmoney/static/js/main.ab90a115.chunk.js.map",
+    "runtime-main.js": "/flexmoney/static/js/runtime-main.79b68316.js",
+    "runtime-main.js.map": "/flexmoney/static/js/runtime-main.79b68316.js.map",
+    "static/js/2.ec9c1999.chunk.js": "/flexmoney/static/js/2.ec9c1999.chunk.js",
+    "static/js/2.ec9c1999.chunk.js.map": "/flexmoney/static/js/2.ec9c1999.chunk.js.map",
+    "static/js/3.2426bdc0.chunk.js": "/flexmoney/static/js/3.2426bdc0.chunk.js",
+    "static/js/3.2426bdc0.chunk.js.map": "/flexmoney/static/js/3.2426bdc0.chunk.js.map",
+    "index.html": "/flexmoney/index.html",
+    "static/css/main.d9d5658d.chunk.css.map": "/flexmoney/static/css/main.d9d5658d.chunk.css.map",
+    "static/js/2.ec9c1999.chunk.js.LICENSE.txt": "/flexmoney/static/js/2.ec9c1999.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79b68316.js",
+    "static/js/2.ec9c1999.chunk.js",
+    "static/css/main.d9d5658d.chunk.css",
+    "static/js/main.ab90a115.chunk.js"
+  ]
+}
