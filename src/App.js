@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react';
 import './App.css';
+import Card from './Card';
 
 function App() {
   const [options, setOptions] = useState([]),
@@ -21,7 +22,7 @@ function App() {
     let text = event?.target?.value;
 
     if (text.length > 2) {
-      fetch(`http://www.omdbapi.com/?s=${text}&apiKey=74de3445`).then((response) => {
+      fetch(`https://www.omdbapi.com/?s=${text}&apiKey=74de3445`).then((response) => {
         return response.json();
       }).then((response) => {
         const result = response?.Search?.slice(0, 5);
@@ -59,13 +60,7 @@ function App() {
               ))}
             </div>
           </section>
-          {selected && <section className="card">
-            <img alt={selected.Title} src={selected.Poster} />
-            <div className="title">
-              <span>Title: {selected.Title}</span>
-              <span>Year: {selected.Year}</span>
-            </div>
-          </section>}
+          {selected && <Card selected={selected}></Card>}
         </form>
       </main>
     </div>
