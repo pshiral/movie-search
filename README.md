@@ -37,3 +37,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 
 
+Demo is available at: https://pshiral.github.io/movie-search/
